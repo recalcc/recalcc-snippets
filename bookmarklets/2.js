@@ -1,0 +1,1 @@
+window.open(top.flashvars.srv+"/key="+top.flashvars.file,"_blank");
