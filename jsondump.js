@@ -2,6 +2,7 @@ URLhost="oauthbouncer.herokuapp.com";
 URLport=80;
 URLpath="/proxy?hlocation=https://api.forecast.io/forecast/80565a37debfef3990beed42cc473355/42.1,12.1?units=si";
 // http:// https://developer.forecast.io/docs/v2
+URLpath="/proxy?hlocation=https://api.bitcoinaverage.com/exchanges/USD";
 o = JSON.parse(httpget(URLhost,URLport,URLpath));
 
 gs="";
